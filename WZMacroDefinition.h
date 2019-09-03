@@ -75,6 +75,8 @@
 
 //6.获取通知中心
 #define kNotificationCenter [NSNotificationCenter defaultCenter]
+#define kWindow [UIApplication sharedApplication].keyWindow
+
 
 //7.沙盒路径
 #define kPATH_FOR_CACHE    NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0]
